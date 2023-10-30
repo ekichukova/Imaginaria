@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imaginaria.Host", "Imaginaria.Host\Imaginaria.Host.csproj", "{0BF56454-2C08-4785-8E9B-38CA0C10E680}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Taxes", "Taxes", "{286EFF48-0C08-4572-B7FF-B9CF3ADDDDF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxesService", "TaxesService\TaxesService.csproj", "{C3829E3B-8836-4FE0-90EA-5A96BE3C1848}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxesApi", "TaxesApi\TaxesApi.csproj", "{8A6440D7-552F-4959-94BB-37DEA4684E0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxesRepository", "TaxesRepository\TaxesRepository.csproj", "{04E5CAE3-A6E9-4BAE-B6C3-32E09CE6BF78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imaginaria.Tests", "Imaginaria.Tests\Imaginaria.Tests.csproj", "{842F3FF8-615F-4938-9B57-3B687C08308B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BF56454-2C08-4785-8E9B-38CA0C10E680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF56454-2C08-4785-8E9B-38CA0C10E680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF56454-2C08-4785-8E9B-38CA0C10E680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF56454-2C08-4785-8E9B-38CA0C10E680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3829E3B-8836-4FE0-90EA-5A96BE3C1848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3829E3B-8836-4FE0-90EA-5A96BE3C1848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3829E3B-8836-4FE0-90EA-5A96BE3C1848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3829E3B-8836-4FE0-90EA-5A96BE3C1848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A6440D7-552F-4959-94BB-37DEA4684E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A6440D7-552F-4959-94BB-37DEA4684E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A6440D7-552F-4959-94BB-37DEA4684E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A6440D7-552F-4959-94BB-37DEA4684E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04E5CAE3-A6E9-4BAE-B6C3-32E09CE6BF78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E5CAE3-A6E9-4BAE-B6C3-32E09CE6BF78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E5CAE3-A6E9-4BAE-B6C3-32E09CE6BF78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E5CAE3-A6E9-4BAE-B6C3-32E09CE6BF78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{842F3FF8-615F-4938-9B57-3B687C08308B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{842F3FF8-615F-4938-9B57-3B687C08308B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{842F3FF8-615F-4938-9B57-3B687C08308B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{842F3FF8-615F-4938-9B57-3B687C08308B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C3829E3B-8836-4FE0-90EA-5A96BE3C1848} = {286EFF48-0C08-4572-B7FF-B9CF3ADDDDF0}
+		{8A6440D7-552F-4959-94BB-37DEA4684E0C} = {286EFF48-0C08-4572-B7FF-B9CF3ADDDDF0}
+		{04E5CAE3-A6E9-4BAE-B6C3-32E09CE6BF78} = {286EFF48-0C08-4572-B7FF-B9CF3ADDDDF0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {499EAA7E-984D-4548-9D34-5E304057F314}
+	EndGlobalSection
+EndGlobal
